@@ -1,0 +1,7 @@
+EL ZAPATO DE LA LENGUA ROTA — WEB COMPLETA
+
+Sube index.html y la carpeta assets al directorio público de tu alojamiento, conservando la estructura. No requiere instalación ni compilación.
+
+Incluye las fotografías, portadas, carrusel de libros, estilos, menú, animaciones 3D y díptico PDF.
+Los enlaces de compra, web de autora y textos legales abren las páginas externas indicadas.
+Las primeras páginas de la novela están pendientes de recibir; el libro animado muestra una página interior con título y autora.
