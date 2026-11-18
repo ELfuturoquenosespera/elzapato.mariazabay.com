@@ -140,3 +140,11 @@ dialog{border:1px solid #111;box-shadow:0 25px 90px #0003;padding:clamp(28px,6vw
 .character-panel[hidden]{display:none!important}
 .tab[aria-selected="true"],.tab[aria-selected="true"]:hover{background:#111;color:#fff}
 .tab:focus-visible{outline:3px solid #333;outline-offset:3px}
+
+/* Portada de cabecera proporcionada en móviles: libera el rostro de la autora. */
+@media (max-width: 640px) {
+  .hero .hero-book-interactive:not(.final-book-interactive) {
+    width: min(53vw, 205px);
+    max-width: 205px;
+  }
+}
