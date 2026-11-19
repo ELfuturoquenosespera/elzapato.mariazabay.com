@@ -148,3 +148,25 @@ dialog{border:1px solid #111;box-shadow:0 25px 90px #0003;padding:clamp(28px,6vw
     max-width: 205px;
   }
 }
+
+/* Segunda página del díptico editorial, integrada entre los dos bloques de historia.
+   Mantiene íntegra la composición en todas las anchuras, sin recortes ni scroll lateral. */
+.story-diptych {
+  box-sizing: border-box;
+  width: calc(100% + 2 * var(--edge));
+  max-width: none;
+  margin: clamp(42px, 6vw, 94px) 0 clamp(34px, 4vw, 62px) calc(-1 * var(--edge));
+  padding: 0;
+  background: #e9e0cc;
+}
+.story-diptych img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 640px) {
+  .story-diptych {
+    margin-top: 35px;
+    margin-bottom: 26px;
+  }
+}
